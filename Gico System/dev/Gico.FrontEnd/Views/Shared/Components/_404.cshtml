@@ -1,0 +1,10 @@
+﻿
+@using Microsoft.AspNetCore.Http
+@model Gico.FrontEndModels.Models.PageModel
+@{
+    ViewData["Title"] = "_404";
+}
+@if (Model.HttpResponseCode == StatusCodes.Status404NotFound)
+{
+    
+}

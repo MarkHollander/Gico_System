@@ -1,0 +1,16 @@
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.FileModels.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.FileModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.FileModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.Models.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.Models.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\obj\Debug\netstandard2.0\Gico.FileModels.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\obj\Debug\netstandard2.0\Gico.FileModels.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\obj\Debug\netstandard2.0\Gico.FileModels.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\obj\Debug\netstandard2.0\Gico.FileModels.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\obj\Debug\netstandard2.0\Gico.FileModels.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\obj\Debug\netstandard2.0\Gico.FileModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileModels\obj\Debug\netstandard2.0\Gico.FileModels.pdb

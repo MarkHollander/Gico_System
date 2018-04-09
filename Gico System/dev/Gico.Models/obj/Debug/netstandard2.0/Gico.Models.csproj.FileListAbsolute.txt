@@ -1,0 +1,14 @@
+E:\GICO\Demo\Gico System\dev\Gico.Models\bin\Debug\netstandard2.0\Gico.Models.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.Models\bin\Debug\netstandard2.0\Gico.Models.dll
+E:\GICO\Demo\Gico System\dev\Gico.Models\bin\Debug\netstandard2.0\Gico.Models.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Models\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.Models\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.Models\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Models\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Models\obj\Debug\netstandard2.0\Gico.Models.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Models\obj\Debug\netstandard2.0\Gico.Models.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Models\obj\Debug\netstandard2.0\Gico.Models.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.Models\obj\Debug\netstandard2.0\Gico.Models.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.Models\obj\Debug\netstandard2.0\Gico.Models.dll
+E:\GICO\Demo\Gico System\dev\Gico.Models\obj\Debug\netstandard2.0\Gico.Models.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Models\obj\Debug\netstandard2.0\Gico.Models.csprojResolveAssemblyReference.cache

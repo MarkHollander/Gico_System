@@ -1,0 +1,14 @@
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\bin\Debug\netstandard2.0\Gico.FrontEndModels.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\bin\Debug\netstandard2.0\Gico.FrontEndModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\bin\Debug\netstandard2.0\Gico.FrontEndModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\obj\Debug\netstandard2.0\Gico.FrontEndModels.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\obj\Debug\netstandard2.0\Gico.FrontEndModels.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\obj\Debug\netstandard2.0\Gico.FrontEndModels.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\obj\Debug\netstandard2.0\Gico.FrontEndModels.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\obj\Debug\netstandard2.0\Gico.FrontEndModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\obj\Debug\netstandard2.0\Gico.FrontEndModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FrontEndModels\obj\Debug\netstandard2.0\Gico.FrontEndModels.csprojResolveAssemblyReference.cache

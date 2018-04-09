@@ -1,0 +1,495 @@
+<div class="portlet light bordered">
+  <div class="portlet-title">
+    <div class="caption">
+      <i class="icon-social-dribbble font-blue-sharp"></i>
+      <span class="caption-subject font-blue-sharp bold uppercase">Các tỉnh thành phố</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div id="menus"></div>
+    </div>
+    <!-- TAB PROVINCE -->
+    <div class="col-md-8" *ngIf="locationUpdateRequest.typeLocation == 1">
+      <ngb-tabset>
+        <ngb-tab id="tab-1" title="Thông tin">
+          <ng-template ngbTabContent>
+            <div>
+              <div class="note note-info ">
+                <em class="block sbold font-red">{{locationUpdateRequest.provinceName}}</em>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="portlet-body">
+                      <div class="table-scrollable">
+                        <table class="table table-hover">
+                          <tbody>
+                            <tr>
+                              <td> Id </td>
+                              <td>{{locationUpdateRequest.id}}</td>
+                            </tr>
+                            <tr>
+                              <td> Province Name English </td>
+                              <td>{{locationUpdateRequest.provinceNameEN}}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab id="tab-2" title="Chỉnh sửa">
+          <ng-template ngbTabContent>
+            <form class="form-horizontal" (ngSubmit)="onUpdate(provinceUpdate)" autocomplete="off" #provinceUpdate="ngForm">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Province Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="ProvinceName" type="text" name="ProvinceName" placeholder="Enter province name" [(ngModel)]="locationUpdateRequest.provinceName"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Province Name English
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="ProvinceNameEN" type="text" name="ProvinceNameEN" placeholder="Enter province name english"
+                            [(ngModel)]="locationUpdateRequest.provinceNameEN" required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-top:15px">
+                <div class="col-md-12 text-right">
+                  <button type="button" class="btn btn-danger" (click)="onDelete(locationUpdateRequest.id, 'province');">Delete</button>
+                  <button type="submit" class="btn btn-success">
+                    <i class='fa fa-spinner fa-spin'></i> Save</button>
+                </div>
+              </div>
+            </form>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+    <!-- TAB DISTRICT -->
+    <div class="col-md-8" *ngIf="locationUpdateRequest.typeLocation == 2">
+      <ngb-tabset>
+        <ngb-tab id="tab-1" title="Thông tin">
+          <ng-template ngbTabContent>
+            <div>
+              <div class="note note-info ">
+                <em class="block sbold font-red">{{locationUpdateRequest.districtName}}</em>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="portlet-body">
+                      <div class="table-scrollable">
+                        <table class="table table-hover">
+                          <tbody>
+                            <tr>
+                              <td> Id </td>
+                              <td>{{locationUpdateRequest.id}}</td>
+                            </tr>
+                            <tr>
+                              <td> District Name English </td>
+                              <td>{{locationUpdateRequest.districtNameEN}}</td>
+                            </tr>
+                            <tr>
+                              <td> Province Name </td>
+                              <td>{{locationUpdateRequest.provinceName}}</td>
+                            </tr>
+                            <tr>
+                              <td> Prefix </td>
+                              <td>{{locationUpdateRequest.prefix}}</td>
+                            </tr>
+                            <tr>
+                              <td> Short Name </td>
+                              <td>{{locationUpdateRequest.shortName}}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab id="tab-2" title="Chỉnh sửa">
+          <ng-template ngbTabContent>
+            <form class="form-horizontal" (ngSubmit)="onDistrictUpdate(districtUpdate)" autocomplete="off" #districtUpdate="ngForm">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Province Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <select class="form-control" [(ngModel)]="locationUpdateRequest.provinceId" name="provinceId" required #provinceId="ngModel">
+                            <option *ngFor="let item of locationResponse.ltsProvince" [ngValue]="item.id">{{item.provinceName}}</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">District Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="DistrictName" type="text" name="DistrictName" placeholder="Enter district name" [(ngModel)]="locationUpdateRequest.districtName"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">District Name English
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="DistrictNameEN" type="text" name="DistrictNameEN" placeholder="Enter district name english"
+                            [(ngModel)]="locationUpdateRequest.districtNameEN" required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Prefix
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="Prefix" type="text" name="Prefix" placeholder="Enter prefix" [(ngModel)]="locationUpdateRequest.prefix"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Short Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="ShortName" type="text" name="ShortName" placeholder="Enter district short name" [(ngModel)]="locationUpdateRequest.shortName"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-top:15px">
+                <div class="col-md-12 text-right">
+                  <button type="button" class="btn btn-danger" (click)="onDelete(locationUpdateRequest.id, 'district');">Delete</button>
+                  <button type="submit" class="btn btn-success">
+                    <i class='fa fa-spinner fa-spin'></i> Save</button>
+                </div>
+              </div>
+            </form>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+    <!-- TAB WARD -->
+    <div class="col-md-8" *ngIf="locationUpdateRequest.typeLocation == 3">
+      <ngb-tabset>
+        <ngb-tab id="tab-1" title="Thông tin">
+          <ng-template ngbTabContent>
+            <div>
+              <div class="note note-info ">
+                <em class="block sbold font-red">{{locationUpdateRequest.wardName}}</em>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="portlet-body">
+                      <div class="table-scrollable">
+                        <table class="table table-hover">
+                          <tbody>
+                            <tr>
+                              <td> Id </td>
+                              <td>{{locationUpdateRequest.id}}</td>
+                            </tr>
+                            <tr>
+                              <td> Ward Name English </td>
+                              <td>{{locationUpdateRequest.wardNameEN}}</td>
+                            </tr>
+                            <tr>
+                              <td> Prefix </td>
+                              <td>{{locationUpdateRequest.prefix}}</td>
+                            </tr>
+                            <tr>
+                              <td> Short Name </td>
+                              <td>{{locationUpdateRequest.shortName}}</td>
+                            </tr>
+                            <tr>
+                              <td> Province Name </td>
+                              <td>{{locationUpdateRequest.provinceName}}</td>
+                            </tr>
+                            <tr>
+                              <td> District Name </td>
+                              <td>{{locationUpdateRequest.districtName}}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab id="tab-2" title="Chỉnh sửa">
+          <ng-template ngbTabContent>
+            <form class="form-horizontal" (ngSubmit)="onWardUpdate(districtUpdate)" autocomplete="off" #districtUpdate="ngForm">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Province Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <select class="form-control" [(ngModel)]="locationUpdateRequest.provinceId" name="provinceId" required #provinceId="ngModel" (change)="onChangeProvince($event)">
+                            <option *ngFor="let item of locationResponse.ltsProvince" [ngValue]="item.id">{{item.provinceName}}</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                      <label class="control-label">District Name
+                        <span class="field-validation-error"> (*)</span>
+                      </label>
+                    </div>
+                    <div class="col-md-10">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="form-group">
+                            <select class="form-control" [(ngModel)]="locationUpdateRequest.districtId" name="district" required #districtId="ngModel">
+                              <option *ngFor="let item of locationResponse.ltsDistricts" [ngValue]="item.id">{{item.districName}}</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Ward Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="WardName" type="text" name="WardName" placeholder="Enter ward name" [(ngModel)]="locationUpdateRequest.wardName"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Ward Name English
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="WardNameEN" type="text" name="WardNameEN" placeholder="Enter ward name english" [(ngModel)]="locationUpdateRequest.wardNameEN"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Prefix
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="Prefix" type="text" name="Prefix" placeholder="Enter prefix" [(ngModel)]="locationUpdateRequest.prefix"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Short Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="ShortName" type="text" name="ShortName" placeholder="Enter shortname" [(ngModel)]="locationUpdateRequest.shortName"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-top:15px">
+                <div class="col-md-12 text-right">
+                  <button type="button" class="btn btn-danger" (click)="onDelete(locationUpdateRequest.id, 'ward');">Delete</button>
+                  <button type="submit" class="btn btn-success">
+                    <i class='fa fa-spinner fa-spin'></i> Save</button>
+                </div>
+              </div>
+            </form>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+    <!-- TAB STREET -->
+    <div class="col-md-8" *ngIf="locationUpdateRequest.typeLocation == 4">
+      <ngb-tabset>
+        <ngb-tab id="tab-1" title="Thông tin">
+          <ng-template ngbTabContent>
+            <div>
+              <div class="note note-info ">
+                <em class="block sbold font-red">{{locationUpdateRequest.streetName}}</em>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="portlet-body">
+                      <div class="table-scrollable">
+                        <table class="table table-hover">
+                          <tbody>
+                            <tr>
+                              <td> Id </td>
+                              <td>{{locationUpdateRequest.id}}</td>
+                            </tr>
+                            <tr>
+                              <td> Street Name English </td>
+                              <td>{{locationUpdateRequest.streetNameEN}}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab id="tab-2" title="Chỉnh sửa">
+          <ng-template ngbTabContent>
+            <form class="form-horizontal" (ngSubmit)="onUpdate(provinceUpdate)" autocomplete="off" #provinceUpdate="ngForm">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Street Name
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="ProvinceName" type="text" name="ProvinceName" placeholder="Enter province name" [(ngModel)]="locationUpdateRequest.streetName"
+                            required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <label class="control-label">Street Name English
+                      <span class="field-validation-error"> (*)</span>
+                    </label>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="form-group">
+                          <input class="form-control" id="ProvinceNameEN" type="text" name="ProvinceNameEN" placeholder="Enter province name english"
+                            [(ngModel)]="locationUpdateRequest.streetNameEN" required />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-top:15px">
+                <div class="col-md-12 text-right">
+                  <button type="button" class="btn btn-danger" (click)="onDelete(locationUpdateRequest.id, 'province');">Delete</button>
+                  <button type="submit" class="btn btn-success">
+                    <i class='fa fa-spinner fa-spin'></i> Save</button>
+                </div>
+              </div>
+            </form>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.AddressDomain\Gico.AddressDomain.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsDomains\Gico.EmailOrSmsDomains.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsService\Gico.EmailOrSmsService.csproj" />
+    <ProjectReference Include="..\Gico.ReadEmailSmsModels\Gico.ReadEmailSmsModels.csproj" />
+    <ProjectReference Include="..\Gico.SystemCommands\Gico.SystemCommands.csproj" />
+    <ProjectReference Include="..\Gico.SystemDataObject\Gico.SystemDataObject.csproj" />
+    <ProjectReference Include="..\Gico.SystemService\Gico.SystemService.csproj" />
+  </ItemGroup>
+
+</Project>

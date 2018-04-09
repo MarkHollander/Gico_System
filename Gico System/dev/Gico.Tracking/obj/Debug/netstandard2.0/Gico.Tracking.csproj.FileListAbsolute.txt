@@ -1,0 +1,14 @@
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\bin\Debug\netstandard2.0\Gico.Tracking.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\bin\Debug\netstandard2.0\Gico.Tracking.dll
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\bin\Debug\netstandard2.0\Gico.Tracking.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\obj\Debug\netstandard2.0\Gico.Tracking.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\obj\Debug\netstandard2.0\Gico.Tracking.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\obj\Debug\netstandard2.0\Gico.Tracking.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\obj\Debug\netstandard2.0\Gico.Tracking.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\obj\Debug\netstandard2.0\Gico.Tracking.dll
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\obj\Debug\netstandard2.0\Gico.Tracking.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Tracking\obj\Debug\netstandard2.0\Gico.Tracking.csprojResolveAssemblyReference.cache

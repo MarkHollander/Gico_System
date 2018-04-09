@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.DataObject\Gico.DataObject.csproj" />
+    <ProjectReference Include="..\Gico.Models\Gico.Models.csproj" />
+    <ProjectReference Include="..\Gico.ReadAddressModels\Gico.ReadAddressModels.csproj" />
+    <ProjectReference Include="..\Gico.SystemCommands\Gico.SystemCommands.csproj" />
+    <ProjectReference Include="..\Gico.SystemDomains\Gico.SystemDomains.csproj" />
+  </ItemGroup>
+
+</Project>

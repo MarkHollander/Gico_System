@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.Config\Gico.Config.csproj" />
+    <ProjectReference Include="..\Gico.DataObject\Gico.DataObject.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsDomains\Gico.EmailOrSmsDomains.csproj" />
+    <ProjectReference Include="..\Gico.ReadEmailSmsModels\Gico.ReadEmailSmsModels.csproj" />
+  </ItemGroup>
+
+</Project>

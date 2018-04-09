@@ -1,0 +1,8 @@
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\bin\Debug\netstandard2.0\Gico.ExceptionDefine.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\bin\Debug\netstandard2.0\Gico.ExceptionDefine.dll
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\bin\Debug\netstandard2.0\Gico.ExceptionDefine.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\obj\Debug\netstandard2.0\Gico.ExceptionDefine.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\obj\Debug\netstandard2.0\Gico.ExceptionDefine.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\obj\Debug\netstandard2.0\Gico.ExceptionDefine.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\obj\Debug\netstandard2.0\Gico.ExceptionDefine.dll
+E:\GICO\Demo\Gico System\dev\Gico.ExceptionDefine\obj\Debug\netstandard2.0\Gico.ExceptionDefine.pdb

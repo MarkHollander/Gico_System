@@ -1,0 +1,9 @@
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\bin\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.deps.json
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\bin\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.dll
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\bin\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.pdb
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\obj\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\obj\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\obj\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\obj\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\obj\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.dll
+E:\GICO\Demo\Gico System\dev\Microsoft.AspNetCore.DataProtection.Redis\obj\Debug\netstandard2.0\Microsoft.AspNetCore.DataProtection.Redis.pdb

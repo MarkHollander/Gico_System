@@ -1,0 +1,30 @@
+﻿@model VendorModel
+@inject IEventPublisher eventPublisher
+
+<div asp-validation-summary="All"></div>
+<input asp-for="VendorId" type="hidden" />
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="row">
+            <div class="col-md-12 clearfix">
+                <div class="pull-left">
+                    @await Component.InvokeAsync("SettingMode", new { modeName = "vendor-advanced-mode" })
+                </div>
+            </div>
+        </div>
+        <nop-tabs id="vendor-edit">
+            <nop-tab asp-name="tab-info" asp-default="true" asp-title="@T("Admin.Vendors.Info")">@await Html.PartialAsync("_CreateOrUpdate.Info", Model)</nop-tab>                        
+        </nop-tabs>
+    </div>
+</div>
+
+@{
+    //custom tabs
+    var eventMessage = new AdminTabStripCreated(this.Html, "vendor-edit");
+    eventPublisher.Publish(eventMessage);
+    foreach (var eventBlock in eventMessage.BlocksToRender)
+    {
+        @eventBlock
+    }
+}

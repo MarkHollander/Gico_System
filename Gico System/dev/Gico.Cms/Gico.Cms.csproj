@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="7.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.AddressDataObject\Gico.AddressDataObject.csproj" />
+    <ProjectReference Include="..\Gico.AppService\Gico.AppService.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsAppService\Gico.EmailOrSmsAppService.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsDataObject\Gico.EmailOrSmsDataObject.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsModel\Gico.EmailOrSmsModel.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsService\Gico.EmailOrSmsService.csproj" />
+    <ProjectReference Include="..\Gico.MarketingCacheStorage\Gico.MarketingCacheStorage.csproj" />
+    <ProjectReference Include="..\Gico.SystemAppService\Gico.SystemAppService.csproj" />
+    <ProjectReference Include="..\Gico.SystemModels\Gico.SystemModels.csproj" />
+    <ProjectReference Include="..\Microsoft.AspNetCore.DataProtection.Redis\Microsoft.AspNetCore.DataProtection.Redis.csproj" />
+  </ItemGroup>
+
+</Project>

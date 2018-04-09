@@ -1,0 +1,4 @@
+E:\GICO\Demo\GICO CMS\dev\Libraries\Nop.Services\obj\Debug\net461\Nop.Services.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\GICO CMS\dev\Libraries\Nop.Services\obj\Debug\net461\Nop.Services.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\GICO CMS\dev\Libraries\Nop.Services\obj\Debug\net461\Nop.Services.AssemblyInfoInputs.cache
+E:\GICO\Demo\GICO CMS\dev\Libraries\Nop.Services\obj\Debug\net461\Nop.Services.AssemblyInfo.cs

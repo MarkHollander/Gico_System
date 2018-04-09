@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.CQRS\Gico.CQRS.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsCommandsHandler\Gico.EmailOrSmsCommandsHandler.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsDataObject\Gico.EmailOrSmsDataObject.csproj" />
+    <ProjectReference Include="..\Gico.EmailOrSmsService\Gico.EmailOrSmsService.csproj" />
+    <ProjectReference Include="..\Gico.EmailSmsTemplateModels\Gico.EmailSmsTemplateModels.csproj" />
+    <ProjectReference Include="..\Gico.FileCommandsHandler\Gico.FileCommandsHandler.csproj" />
+    <ProjectReference Include="..\Gico.MarketingCacheStorage\Gico.MarketingCacheStorage.csproj" />
+    <ProjectReference Include="..\Gico.OrderCommandsHandler\Gico.OrderCommandsHandler.csproj" />
+    <ProjectReference Include="..\Gico.SystemCommandsHandler\Gico.SystemCommandsHandler.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EmailSmsTemplates\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Gico.EmailSmsTemplate\Views\Template\View.cshtml" Link="EmailSmsTemplates\View.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

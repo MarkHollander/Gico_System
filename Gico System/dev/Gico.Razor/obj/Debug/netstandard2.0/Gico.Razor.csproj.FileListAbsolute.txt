@@ -1,0 +1,9 @@
+E:\GICO\Demo\Gico System\dev\Gico.Razor\bin\Debug\netstandard2.0\Gico.Razor.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.Razor\bin\Debug\netstandard2.0\Gico.Razor.dll
+E:\GICO\Demo\Gico System\dev\Gico.Razor\bin\Debug\netstandard2.0\Gico.Razor.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Razor\obj\Debug\netstandard2.0\Gico.Razor.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.Razor\obj\Debug\netstandard2.0\Gico.Razor.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Razor\obj\Debug\netstandard2.0\Gico.Razor.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Razor\obj\Debug\netstandard2.0\Gico.Razor.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.Razor\obj\Debug\netstandard2.0\Gico.Razor.dll
+E:\GICO\Demo\Gico System\dev\Gico.Razor\obj\Debug\netstandard2.0\Gico.Razor.pdb

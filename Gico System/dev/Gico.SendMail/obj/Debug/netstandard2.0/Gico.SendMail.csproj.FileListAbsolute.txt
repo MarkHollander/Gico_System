@@ -1,0 +1,14 @@
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\bin\Debug\netstandard2.0\Gico.SendMail.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\bin\Debug\netstandard2.0\Gico.SendMail.dll
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\bin\Debug\netstandard2.0\Gico.SendMail.pdb
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\obj\Debug\netstandard2.0\Gico.SendMail.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\obj\Debug\netstandard2.0\Gico.SendMail.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\obj\Debug\netstandard2.0\Gico.SendMail.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\obj\Debug\netstandard2.0\Gico.SendMail.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\obj\Debug\netstandard2.0\Gico.SendMail.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\obj\Debug\netstandard2.0\Gico.SendMail.dll
+E:\GICO\Demo\Gico System\dev\Gico.SendMail\obj\Debug\netstandard2.0\Gico.SendMail.pdb

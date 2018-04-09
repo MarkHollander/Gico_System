@@ -1,0 +1,55 @@
+﻿@using Gico.Config
+@model Gico.FrontEndModels.Models.LoginViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @await Html.PartialAsync("Components/_CssInclude")
+</head>
+<body>
+    <div class="container">
+        @if (string.IsNullOrEmpty(ViewBag.RedirectUrl))
+        {
+            <form asp-route-returnurl="@ViewData["returnurl"]" method="post">
+                <h4>Use a local account to log in.</h4>
+                <hr />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label>@Model.T(ResourceKey.Account_Login_Username)</label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>@Model.T(ResourceKey.Account_Login_Password)</label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input asp-for="Remember" class="form-check-input" />
+                        @Model.T(ResourceKey.Account_Login_Remember)
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">@Model.T(ResourceKey.Account_Login_Submit)</button>
+                <a class="btn btn-primary" href="/ExternalLogin?provider=Facebook" >@Model.T(ResourceKey.Account_Login_Facebook)</a>
+                <a class="btn btn-primary"  href="/ExternalLogin?provider=Google">@Model.T(ResourceKey.Account_Login_Google)</a>
+            </form>
+        }
+        else
+        {
+            <div>
+                @Model.T(ResourceKey.Account_Login_Success)
+            </div>
+            <script type="text/javascript">
+                setTimeout(function() {
+                    location.href = "@ViewBag.RedirectUrl";
+                }, 3000);
+            </script>
+        }
+
+    </div>
+    @await Html.PartialAsync("Components/_JsInclude")
+
+</body>
+</html>

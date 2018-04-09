@@ -1,0 +1,14 @@
+E:\GICO\Demo\Gico System\dev\Gico.Caching\bin\Debug\netstandard2.0\Gico.Caching.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.Caching\bin\Debug\netstandard2.0\Gico.Caching.dll
+E:\GICO\Demo\Gico System\dev\Gico.Caching\bin\Debug\netstandard2.0\Gico.Caching.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Caching\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.Caching\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.Caching\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Caching\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Caching\obj\Debug\netstandard2.0\Gico.Caching.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.Caching\obj\Debug\netstandard2.0\Gico.Caching.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Caching\obj\Debug\netstandard2.0\Gico.Caching.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Caching\obj\Debug\netstandard2.0\Gico.Caching.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.Caching\obj\Debug\netstandard2.0\Gico.Caching.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.Caching\obj\Debug\netstandard2.0\Gico.Caching.dll
+E:\GICO\Demo\Gico System\dev\Gico.Caching\obj\Debug\netstandard2.0\Gico.Caching.pdb

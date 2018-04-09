@@ -1,0 +1,126 @@
+﻿@model VendorModel
+
+<div class="panel-group">    
+    <div class="panel panel-default">
+        <div class="panel-body">
+            @(Html.LocalizedEditor<VendorModel, VendorLocalizedModel>("vendor-info-localized",
+            @<div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="@Model.Locales[item].VendorName" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="@Model.Locales[item].VendorName" />
+                        <span asp-validation-for="@Model.Locales[item].VendorName"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="@Model.Locales[item].VendorDescription" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="@Model.Locales[item].VendorDescription" asp-template="RichEditor" />
+                        <span asp-validation-for="@Model.Locales[item].VendorDescription"></span>
+                    </div>
+                </div>
+                <input type="hidden" asp-for="@Model.Locales[item].LanguageId" />
+            </div>
+            ,
+            @<div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="VendorName" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="VendorName" asp-required="true" />
+                        <span asp-validation-for="VendorName"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="VendorDescription" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="VendorDescription" asp-template="RichEditor" />
+                        <span asp-validation-for="VendorDescription"></span>
+                    </div>
+                </div>
+                 <div class="form-group">
+                     <div class="col-md-3">
+                         <nop-label asp-for="CompanyName" />
+                     </div>
+                     <div class="col-md-9">
+                         <nop-editor asp-for="CompanyName"/>
+                         <span asp-validation-for="CompanyName"></span>
+                     </div>
+                 </div>     
+                 <div class="form-group">
+                     <div class="col-md-3">
+                         <nop-label asp-for="Email" />
+                     </div>
+                     <div class="col-md-9">
+                         <nop-editor asp-for="Email" asp-required="true" />
+                         <span asp-validation-for="Email"></span>
+                     </div>
+                 </div>     
+                 <div class="form-group">
+                     <div class="col-md-3">
+                         <nop-label asp-for="Phone" />
+                     </div>
+                     <div class="col-md-9">
+                         <nop-editor asp-for="Phone"/>
+                         <span asp-validation-for="Phone"></span>
+                     </div>
+                 </div>     
+                 <div class="form-group">
+                     <div class="col-md-3">
+                         <nop-label asp-for="Fax" />
+                     </div>
+                     <div class="col-md-9">
+                         <nop-editor asp-for="Fax"/>
+                         <span asp-validation-for="Fax"></span>
+                     </div>
+                 </div>     
+            </div>
+                  ))                     
+            <div class="form-group advanced-setting">
+                <div class="col-md-3">
+                    <nop-label asp-for="VendorLogo" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="VendorLogo" />
+                    <span asp-validation-for="VendorLogo"></span>
+                </div>
+            </div> 
+            @if (!string.IsNullOrEmpty(Model.VendorId))
+            {
+            <div class="form-group advanced-setting">
+                <div class="col-md-3">
+                    <nop-label asp-for="VendorStatus" />
+                </div>
+                <div class="col-md-9">
+                    <nop-select asp-for="VendorStatus" asp-items="Model.AvailableVendorStatus" />
+                </div>
+            </div>  
+            }
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-label asp-for="Website" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Website"/>
+                    <span asp-validation-for="Website"></span>
+                </div>
+            </div>     
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-label asp-for="VendorType" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="VendorType"/>
+                    <span asp-validation-for="VendorType"></span>
+                </div>
+            </div>     
+        </div>
+    </div>        
+</div>

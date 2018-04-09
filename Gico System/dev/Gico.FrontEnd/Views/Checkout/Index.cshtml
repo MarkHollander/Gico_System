@@ -1,0 +1,101 @@
+﻿@using Gico.FrontEndModels.Models
+@model Gico.FrontEndModels.Models.CheckoutViewModel;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_CheckoutLayout.cshtml";
+}
+<div class="row">
+    <div class="col-8">
+        <div class="row">
+            @if (Model.Addresses?.Length > 0)
+            {
+                foreach (var address in Model.Addresses)
+                {
+                    <div class="col-10">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                @address.AddressFull
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button type="button">Sửa</button>
+                        <button type="button">Xóa</button>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Mobile</label>
+                    <input type="text" class="form-control" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Location</label>
+                    <select class="locationSearch" style="width: 300px;"></select>
+                </div>
+                <div class="form-group">
+                    <label>Address Detail</label>
+                    <input type="text" class="form-control" placeholder="name@example.com">
+                </div>
+            }
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Lời nhắn</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ví dụ: Chuyển hàng ngoài giờ hành chính"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model.DeliveryTimes)
+            {
+                <div>@item.DisplayText</div>
+                <div>
+                    @foreach (var checkoutItem in item.Items)
+                    {
+                        <div>@checkoutItem.Name</div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+    <div class="col-4">
+        @foreach (var checkoutItem in Model.CheckoutItems)
+        {
+            <div>@checkoutItem.Name</div>
+            <div>@checkoutItem.Price</div>
+            <div>@checkoutItem.Quantity</div>
+            <div>@checkoutItem.TotalPrice</div>
+        }
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nhập mã giảm giá">
+        </div>
+        <div>
+            Tổng tiền:@Model.TotalPrice
+        </div>
+        <div>
+            Phí vận chuyển:@Model.DeliveryCharge
+        </div>
+        <div>
+            Số tiền cần thanh toán:@Model.TotalPaidAmount
+        </div>
+    </div>
+</div>
+@section Scripts
+    {
+    <script>
+        $(document).ready(function () {
+            system.locationSearch();
+        });
+    </script>
+}

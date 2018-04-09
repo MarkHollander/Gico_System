@@ -1,0 +1,16 @@
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.CQRS.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.CQRS.dll
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.CQRS.pdb
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.DataObject.dll
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.DataObject.pdb
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\obj\Debug\netstandard2.0\Gico.CQRS.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\obj\Debug\netstandard2.0\Gico.CQRS.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\obj\Debug\netstandard2.0\Gico.CQRS.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\obj\Debug\netstandard2.0\Gico.CQRS.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\obj\Debug\netstandard2.0\Gico.CQRS.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\obj\Debug\netstandard2.0\Gico.CQRS.dll
+E:\GICO\Demo\Gico System\dev\Gico.CQRS\obj\Debug\netstandard2.0\Gico.CQRS.pdb

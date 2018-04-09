@@ -1,0 +1,2 @@
+E:\GICO\Demo\GICO CMS\dev\Nop.EventNotify\obj\Debug\Nop.EventNotify.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\GICO CMS\dev\Nop.EventNotify\obj\Debug\Nop.EventNotify.csproj.CoreCompileInputs.cache

@@ -1,0 +1,9 @@
+E:\GICO\Demo\Gico System\dev\Gico.Common\bin\Debug\netstandard2.0\Gico.Common.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.Common\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.Common\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Common\obj\Debug\netstandard2.0\Gico.Common.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.Common\obj\Debug\netstandard2.0\Gico.Common.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Common\obj\Debug\netstandard2.0\Gico.Common.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Common\obj\Debug\netstandard2.0\Gico.Common.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.Common\obj\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.Common\obj\Debug\netstandard2.0\Gico.Common.pdb

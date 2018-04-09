@@ -1,0 +1,73 @@
+<form autocomplete="off" (ngSubmit)="onSubmit()" #frmTabAttribute="ngForm">
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-condensed table-striped table-bordered">
+        <tr>
+          <th style="width:2%" class="text-center">STT</th>
+          <th style="width:13%" class="text-center">Tên thuộc tính </th>
+          <th style="width:60%" class="text-center">Giá trị</th>
+          <th style="width:25%" class="text-center">Đơn vị (nếu có)</th>
+        </tr>
+        <tr>
+          <td class="text-center">1</td>
+          <td>
+            Tên thuộc tính
+          </td>
+          <td>
+            <div class="form-group" *ngIf="productAttributeInfo.attributeType == 2">
+              <select class="form-control select2" name="attributeValueSelected" [(ngModel)]="productAttributeInfo.attributeValueSelected" #attributeValueSelected="ngModel" required>
+                <option value="">Lựa chọn thuộc tính</option>
+              </select>
+              <div class="help-block" *ngIf="(attributeValueSelected.errors && (attributeValueSelected.dirty || attributeValueSelected.touched)) || (!formValid && attributeValueSelected.errors)">
+                <p class="required" *ngIf="attributeValueSelected.errors.required">Bạn phải lựa chọn giá trị thuộc tính.</p>
+              </div>
+            </div>
+            <div *ngIf="productAttributeInfo.attributeType == 4">
+              <div class="form-group" *ngIf="!productAttributeInfo.isRequired">
+                <input type="text" class="form-control" name="valueNumber" [(ngModel)]="productAttributeInfo.valueNumber" #valueNumber="ngModel" pattern="/^\d+(\,\d{0,2})?$/" />
+                <div class="help-block" *ngIf="(valueNumber.errors && (valueNumber.dirty || valueNumber.touched)) || (!formValid && valueNumber.errors)">
+                  <p class="required" *ngIf="valueNumber.errors.pattern">Bắt buộc phải là số. Dùng dấu "," cho số thập phân.</p>
+                </div>
+              </div>
+              <div class="form-group" *ngIf="productAttributeInfo.isRequired">
+                <select class="form-control select2" name="valueNumber" [(ngModel)]="productAttributeInfo.valueNumber" #valueNumber="ngModel" required>
+                  <option value="">Lựa chọn thuộc tính</option>
+                </select>
+                <div class="help-block" *ngIf="(valueNumber.errors && (valueNumber.dirty || valueNumber.touched)) || (!formValid && valueNumber.errors)">
+                  <p class="required" *ngIf="valueNumber.errors.required">Bạn phải lựa chọn giá trị thuộc tính.</p>
+                </div>
+              </div>
+            </div>
+            <div class="form-group" *ngIf="productAttributeInfo.attributeType != 2 && productAttributeInfo.attributeType != 4">
+              <textarea rows="4" class="form-control" name="valueText" [(ngModel)]="productAttributeInfo.valueText" #valueText="ngModel"></textarea>
+            </div>
+          </td>
+          <td>
+            <div class="form-group" *ngIf="productAttributeInfo.baseUnitId > 0 && productAttributeInfo.attributeType == 4">
+              <select class="form-control select2" name="unitId" [(ngModel)]="productAttributeInfo.unitId" #unitId="ngModel" required>
+                <option value="">Lựa chọn đơn vị
+                  <span class="required"> (*)</span>
+                </option>
+              </select>
+              <div class="help-block" *ngIf="(unitId.errors && (unitId.dirty || unitId.touched)) || (!formValid && unitId.errors)">
+                  <p class="required" *ngIf="unitId.errors.required">Bạn phải lựa chọn đơn vị</p>
+              </div>
+              <input type="hidden" name="baseUnitId" [(ngModel)]="productAttributeInfo.baseUnitId" #baseUnitId="ngModel" pattern="/^[1-9]\d*$/" />
+              <div class="help-block" *ngIf="(baseUnitId.errors && (baseUnitId.dirty || baseUnitId.touched)) || (!formValid && baseUnitId.errors)">
+                <p class="required" *ngIf="baseUnitId.errors.required">Bạn phải lựa chọn đơn vị</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 text-right">
+      <button type="button" class="btn btn-warning" (click)="setTab.emit('tab-1');">Quay lại</button>
+      <button type="button" class="btn btn-success" (click)="onSubmit(frmTabAttribute, productAttributeInfo)">
+        <i class='fa fa-spinner fa-spin'></i>Tiếp tục</button>
+    </div>
+  </div>
+</form>

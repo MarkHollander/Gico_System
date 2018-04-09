@@ -1,0 +1,8 @@
+.list-item-email {
+    border: 1px solid #ccc;
+    padding: 6px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+}

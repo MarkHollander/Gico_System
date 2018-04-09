@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.CQRS\Gico.CQRS.csproj" />
+    <ProjectReference Include="..\Gico.DataObject\Gico.DataObject.csproj" />
+    <ProjectReference Include="..\Gico.Domains\Gico.Domains.csproj" />
+    <ProjectReference Include="..\Gico.ExceptionDefine\Gico.ExceptionDefine.csproj" />
+    <ProjectReference Include="..\Gico.OrderDomains\Gico.OrderDomains.csproj" />
+    <ProjectReference Include="..\Gico.ReadCartModels\Gico.ReadCartModels.csproj" />
+    <ProjectReference Include="..\Gico.ReadOrderModels\Gico.ReadOrderModels.csproj" />
+  </ItemGroup>
+
+</Project>

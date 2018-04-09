@@ -1,0 +1,8 @@
+.portlet-title-action {
+    border: 0 !important;
+    margin: 15px 25px 0 0 !important;
+    padding: 0 !important;
+}
+.alert{
+    z-index: 100000 !important;
+}

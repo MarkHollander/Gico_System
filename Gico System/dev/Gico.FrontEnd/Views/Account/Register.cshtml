@@ -1,0 +1,74 @@
+﻿@using Gico.Common
+@using Gico.Config
+@model Gico.FrontEndModels.Models.RegisterViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @await Html.PartialAsync("Components/_CssInclude")
+</head>
+<body>
+    <div class="container">
+        <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+            <h4>Use a local account to log in.</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label>@Model.T(ResourceKey.Account_Register_FullName)</label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Model.T(ResourceKey.Account_Register_EmailOrMobile)</label>
+                <input asp-for="EmailOrMobile" class="form-control" />
+                <span asp-validation-for="EmailOrMobile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Model.T(ResourceKey.Account_Register_Password)</label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Model.T(ResourceKey.Account_Register_ConfirmPassword)</label>
+                <input asp-for="ConfirmPassword" class="form-control" type="password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Model.T(ResourceKey.Account_Register_Gender)</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input asp-for="Gender" class="form-check-input" type="radio" value="@EnumDefine.GenderEnum.Male.AsEnumToInt()" />
+                        @Model.T(ResourceKey.Account_Register_Gender_Male)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input asp-for="Gender" class="form-check-input" type="radio" value="@EnumDefine.GenderEnum.Female.AsEnumToInt()" />
+                        @Model.T(ResourceKey.Account_Register_Gender_Female)
+                    </label>
+                </div>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>@Model.T(ResourceKey.Account_Register_Birthday)</label>
+                <input asp-for="Birthday" class="form-control" type="text" />
+                <span asp-validation-for="BirthdayValue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input asp-for="IsReceiveNewletter" class="form-check-input" type="checkbox" />
+                        @Model.T(ResourceKey.Account_Register_IsReceiveNewletter)
+                    </label>
+                </div>
+                
+            </div>
+            <button type="submit" class="btn btn-primary">@Model.T(ResourceKey.Account_Register_Submit)</button>
+        </form>
+    </div>
+
+    @await Html.PartialAsync("Components/_JsInclude")
+
+</body>
+</html>

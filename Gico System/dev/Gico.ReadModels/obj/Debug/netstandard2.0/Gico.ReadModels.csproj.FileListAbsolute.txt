@@ -1,0 +1,9 @@
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\bin\Debug\netstandard2.0\Gico.ReadModels.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\bin\Debug\netstandard2.0\Gico.ReadModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\bin\Debug\netstandard2.0\Gico.ReadModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\obj\Debug\netstandard2.0\Gico.ReadModels.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\obj\Debug\netstandard2.0\Gico.ReadModels.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\obj\Debug\netstandard2.0\Gico.ReadModels.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\obj\Debug\netstandard2.0\Gico.ReadModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\obj\Debug\netstandard2.0\Gico.ReadModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadModels\obj\Debug\netstandard2.0\Gico.ReadModels.csprojResolveAssemblyReference.cache

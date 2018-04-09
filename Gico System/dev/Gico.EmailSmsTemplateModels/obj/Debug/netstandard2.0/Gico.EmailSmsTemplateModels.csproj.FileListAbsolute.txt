@@ -1,0 +1,9 @@
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\bin\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\bin\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\bin\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\obj\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\obj\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\obj\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\obj\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\obj\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.EmailSmsTemplateModels\obj\Debug\netstandard2.0\Gico.EmailSmsTemplateModels.pdb

@@ -1,0 +1,11 @@
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\bin\Debug\netstandard2.0\Gico.Resilience.Http.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\bin\Debug\netstandard2.0\Gico.Resilience.Http.dll
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\bin\Debug\netstandard2.0\Gico.Resilience.Http.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\obj\Debug\netstandard2.0\Gico.Resilience.Http.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\obj\Debug\netstandard2.0\Gico.Resilience.Http.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\obj\Debug\netstandard2.0\Gico.Resilience.Http.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\obj\Debug\netstandard2.0\Gico.Resilience.Http.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\obj\Debug\netstandard2.0\Gico.Resilience.Http.dll
+E:\GICO\Demo\Gico System\dev\Gico.Resilience.Http\obj\Debug\netstandard2.0\Gico.Resilience.Http.pdb

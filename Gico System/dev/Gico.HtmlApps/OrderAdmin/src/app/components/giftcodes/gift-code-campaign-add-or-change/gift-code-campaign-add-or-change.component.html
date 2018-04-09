@@ -1,0 +1,139 @@
+<div class="row">
+  <div class="col-md-12">
+    <!-- BEGIN VALIDATION STATES-->
+    <div class="portlet light portlet-fit portlet-form">
+      <div class="portlet-title">
+        <div class="caption">
+          <i class="icon-settings font-dark"></i>
+          <span class="caption-subject font-dark sbold uppercase">Add</span>
+        </div>
+        <div class="actions">
+          <div class="btn-group btn-group-devided" data-toggle="buttons">
+            <label class="btn btn-transparent dark btn-outline btn-circle btn-sm active">
+              <input type="radio" name="options" class="toggle" id="option1">Actions</label>
+            <label class="btn btn-transparent dark btn-outline btn-circle btn-sm">
+              <input type="radio" name="options" class="toggle" id="option2">Settings</label>
+          </div>
+        </div>
+      </div>
+      <div class="portlet-body">
+        <!-- BEGIN FORM-->
+        <form action="#" id="gift-code-campaign-add-or-change" class="form-horizontal">
+          <div class="form-body">
+            <div class="alert alert-danger display-hide">
+              <button class="close" data-close="alert"></button> You have some form errors. Please check below. </div>
+            <div class="alert alert-success display-hide">
+              <button class="close" data-close="alert"></button> Your form validation is successful! </div>
+            <div class="form-group">
+              <label class="control-label col-md-3">Name
+                <span class="required"> * </span>
+              </label>
+              <div class="col-md-4">
+                <input type="text" name="name" class="form-control" /> </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-md-3">Date
+                <span class="required"> * </span>
+              </label>
+              <div class="col-md-4">
+                <div class="input-group input-large date-picker input-daterange" data-date="10/11/2012" data-date-format="mm/dd/yyyy">
+                  <input type="text" class="form-control" name="beginDate" [(ngModel)]="giftCodeCampaign.beginDate" #beginDate="ngModel" />
+                  <span class="input-group-addon"> to </span>
+                  <input type="text" class="form-control" name="endDate" [(ngModel)]="giftCodeCampaign.endDate" #endDate="ngModel" /> </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-md-3">Note
+              </label>
+              <div class="col-md-4">
+                <textarea class="form-control" rows="5" name="editor1"></textarea>
+                <div id="editor1_error"> </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Calendar</label>
+              <div class="col-md-9">
+                <div class="mt-radio-inline">
+                  <label class="mt-radio mt-radio-outline">
+                    <input type="radio" name="calendarMode" [(ngModel)]="giftCodeCampaign.calendarMode" #calendarMode="ngModel" [value]="1" /> Full time
+                    <span></span>
+                  </label>
+                  <label class="mt-radio mt-radio-outline">
+                    <input type="radio" name="calendarMode" [(ngModel)]="giftCodeCampaign.calendarMode" #calendarMode="ngModel" [value]="2" /> Set calendar
+                    <span></span>
+                  </label>
+                  <button class="btn btn-primary " (click)="onShowCalendar()" [disabled]="giftCodeCampaign.calendarMode == 1">
+                    <i class="fa fa-calendar"></i>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+            <div class="form-group last">
+              <label class="control-label col-md-3">Conditions
+                <span class="required"> * </span>
+              </label>
+              <div class="col-md-4">
+                <div class="mt-checkbox-list" *ngFor="let item of conditionTypes;let index = index;">
+                  <label class="mt-checkbox mt-checkbox-outline">
+                    <input type="checkbox" (click)="onClickCondition(item.value)"> {{item.text}}
+                    <span></span>
+                  </label>
+                  <div *ngIf="item.value==1 && item.checked==true">
+                    <button class="btn btn-sm btn-primary" (click)="onShowConfigProduct()">Config product</button>
+                    <app-config-product #configProduct></app-config-product>
+                  </div>
+                  <div *ngIf="item.value==2 && item.checked==true">
+                    <button class="btn btn-sm btn-primary" (click)="onShowConfigCategory()">Config category</button>
+                    <app-config-category #configCategory></app-config-category>
+                  </div>
+                  <div *ngIf="item.value==3 && item.checked==true">
+                    <app-config-price #configPrice></app-config-price>
+                  </div>
+                  <div *ngIf="item.value==4 && item.checked==true">
+                    <app-config-payment-type #configPaymentType></app-config-payment-type>
+                  </div>
+                  <div *ngIf="item.value==5 && item.checked==true">
+                    <app-config-device-type #configDeviceType></app-config-device-type>
+                  </div>
+                  <div *ngIf="item.value==6 && item.checked==true">
+                    <app-config-province #configProvince></app-config-province>
+                  </div>
+                  <div *ngIf="item.value==8 && item.checked==true">
+                    <button class="btn btn-sm btn-primary" (click)="onShowConfigVender()">Config vender</button>
+                    <app-config-vender #configVender></app-config-vender>
+                  </div>
+                  <div *ngIf="item.value==9 && item.checked==true">
+                    <input class="form-control" type="text" (focus)="onMaxUsingCountByUserFocus($event)">
+                  </div>
+                  <div *ngIf="item.value==10 && item.checked==true">
+                    <button class="btn btn-sm btn-primary" (click)="onShowConfigEmail()">Config email</button>
+                    <app-config-email #configEmail></app-config-email>
+                  </div>
+                  <div *ngIf="item.value==11 && item.checked==true">
+                    <button class="btn btn-sm btn-primary" (click)="onShowConfigmobile()">Config mobile</button>
+                    <app-config-mobile #configMobile></app-config-mobile>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="form-actions">
+            <div class="row">
+              <div class="col-md-offset-3 col-md-9">
+                <button type="submit" class="btn green">Submit</button>
+                <button type="button" class="btn default">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <!-- END FORM-->
+      </div>
+      <!-- END VALIDATION STATES-->
+    </div>
+  </div>
+</div>
+<div class="popup">
+  <app-calendar #calendar></app-calendar>
+</div>

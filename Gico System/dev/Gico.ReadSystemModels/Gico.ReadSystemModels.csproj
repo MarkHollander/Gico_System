@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="protobuf-net" Version="2.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.Config\Gico.Config.csproj" />
+    <ProjectReference Include="..\Gico.CQRS\Gico.CQRS.csproj" />
+    <ProjectReference Include="..\Gico.Events\Gico.Events.csproj" />
+    <ProjectReference Include="..\Gico.SystemEvents\Gico.SystemEvents.csproj" />
+  </ItemGroup>
+
+</Project>

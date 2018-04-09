@@ -1,0 +1,14 @@
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\bin\Debug\netstandard2.0\Gico.ReadEmailSmsModels.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\bin\Debug\netstandard2.0\Gico.ReadEmailSmsModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\bin\Debug\netstandard2.0\Gico.ReadEmailSmsModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\obj\Debug\netstandard2.0\Gico.ReadEmailSmsModels.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\obj\Debug\netstandard2.0\Gico.ReadEmailSmsModels.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\obj\Debug\netstandard2.0\Gico.ReadEmailSmsModels.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\obj\Debug\netstandard2.0\Gico.ReadEmailSmsModels.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\obj\Debug\netstandard2.0\Gico.ReadEmailSmsModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\obj\Debug\netstandard2.0\Gico.ReadEmailSmsModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadEmailSmsModels\obj\Debug\netstandard2.0\Gico.ReadEmailSmsModels.csprojResolveAssemblyReference.cache

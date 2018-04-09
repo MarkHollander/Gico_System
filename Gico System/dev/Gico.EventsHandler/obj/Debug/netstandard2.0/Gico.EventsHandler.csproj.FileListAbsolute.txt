@@ -1,0 +1,9 @@
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\bin\Debug\netstandard2.0\Gico.EventsHandler.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\bin\Debug\netstandard2.0\Gico.EventsHandler.dll
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\bin\Debug\netstandard2.0\Gico.EventsHandler.pdb
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\obj\Debug\netstandard2.0\Gico.EventsHandler.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\obj\Debug\netstandard2.0\Gico.EventsHandler.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\obj\Debug\netstandard2.0\Gico.EventsHandler.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\obj\Debug\netstandard2.0\Gico.EventsHandler.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\obj\Debug\netstandard2.0\Gico.EventsHandler.dll
+E:\GICO\Demo\Gico System\dev\Gico.EventsHandler\obj\Debug\netstandard2.0\Gico.EventsHandler.pdb

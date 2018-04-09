@@ -1,0 +1,16 @@
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.FileStorage.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.FileStorage.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.FileStorage.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.Common.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.Config.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.Resilience.Http.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.Config.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.Resilience.Http.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\bin\Debug\netstandard2.0\Gico.Common.pdb
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\obj\Debug\netstandard2.0\Gico.FileStorage.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\obj\Debug\netstandard2.0\Gico.FileStorage.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\obj\Debug\netstandard2.0\Gico.FileStorage.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\obj\Debug\netstandard2.0\Gico.FileStorage.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\obj\Debug\netstandard2.0\Gico.FileStorage.csproj.CopyComplete
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\obj\Debug\netstandard2.0\Gico.FileStorage.dll
+E:\GICO\Demo\Gico System\dev\Gico.FileStorage\obj\Debug\netstandard2.0\Gico.FileStorage.pdb

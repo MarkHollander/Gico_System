@@ -1,0 +1,4 @@
+E:\GICO\Demo\GICO CMS\dev\Presentation\Nop.Web.Framework\obj\Debug\net461\Nop.Web.Framework.csprojResolveAssemblyReference.cache
+E:\GICO\Demo\GICO CMS\dev\Presentation\Nop.Web.Framework\obj\Debug\net461\Nop.Web.Framework.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\GICO CMS\dev\Presentation\Nop.Web.Framework\obj\Debug\net461\Nop.Web.Framework.AssemblyInfoInputs.cache
+E:\GICO\Demo\GICO CMS\dev\Presentation\Nop.Web.Framework\obj\Debug\net461\Nop.Web.Framework.AssemblyInfo.cs

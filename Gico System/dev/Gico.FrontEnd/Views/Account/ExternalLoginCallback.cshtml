@@ -1,0 +1,29 @@
+﻿@using Gico.Common
+@using Gico.Config
+@model Gico.FrontEndModels.Models.ExternalLoginCallbackViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @await Html.PartialAsync("Components/_CssInclude")
+</head>
+<body>
+    <div class="container">
+        <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+            <h4>Email Or Mobile Is Exist</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label>@Model.T(ResourceKey.Account_ExternalLoginConfirmWhenAccountIsExist_ActiveCode)</label>
+                <input name="ActiveCode" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">@Model.T(ResourceKey.Account_ExternalLoginConfirmWhenAccountIsExist_Submit)</button>
+        </form>
+    </div>
+
+    @await Html.PartialAsync("Components/_JsInclude")
+
+</body>
+</html>

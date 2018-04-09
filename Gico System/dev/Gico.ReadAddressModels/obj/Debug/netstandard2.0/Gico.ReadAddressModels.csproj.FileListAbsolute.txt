@@ -1,0 +1,9 @@
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\bin\Debug\netstandard2.0\Gico.ReadAddressModels.deps.json
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\bin\Debug\netstandard2.0\Gico.ReadAddressModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\bin\Debug\netstandard2.0\Gico.ReadAddressModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\obj\Debug\netstandard2.0\Gico.ReadAddressModels.csproj.CoreCompileInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\obj\Debug\netstandard2.0\Gico.ReadAddressModels.AssemblyInfoInputs.cache
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\obj\Debug\netstandard2.0\Gico.ReadAddressModels.AssemblyInfo.cs
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\obj\Debug\netstandard2.0\Gico.ReadAddressModels.dll
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\obj\Debug\netstandard2.0\Gico.ReadAddressModels.pdb
+E:\GICO\Demo\Gico System\dev\Gico.ReadAddressModels\obj\Debug\netstandard2.0\Gico.ReadAddressModels.csprojResolveAssemblyReference.cache

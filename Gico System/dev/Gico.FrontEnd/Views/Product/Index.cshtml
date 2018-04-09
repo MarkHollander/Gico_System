@@ -1,0 +1,19 @@
+﻿@using Gico.Common
+@using Gico.Config
+@using Gico.FrontEndModels.Models
+@model Gico.FrontEndModels.Models.ProductDetailViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h1>@Model.Id</h1>
+<h1>@Model.Code</h1>
+<h2>@Model.Name</h2>
+<h2>@Model.Quantity</h2>
+<div><button type="button" onclick="system.changeCart('@Model.Id',1,@EnumDefine.CartActionEnum.AddNewItem.AsEnumToInt())">Add</button></div>
+<div><button type="button" onclick="system.changeCart('@Model.Id',1,@EnumDefine.CartActionEnum.RemoveItem.AsEnumToInt())">Remove</button></div>
+<div><button type="button" onclick="system.changeCart('@Model.Id',-1,@EnumDefine.CartActionEnum.ChangeQuantity.AsEnumToInt())">Change -1</button></div>
+<div><button type="button" onclick="system.changeCart('@Model.Id',10,@EnumDefine.CartActionEnum.ChangeQuantity.AsEnumToInt())">Change +10</button></div>
+

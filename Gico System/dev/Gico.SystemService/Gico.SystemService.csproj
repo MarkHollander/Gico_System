@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gico.AddressDataObject\Gico.AddressDataObject.csproj" />
+    <ProjectReference Include="..\Gico.AddressDomain\Gico.AddressDomain.csproj" />
+    <ProjectReference Include="..\Gico.EsStorage\Gico.EsStorage.csproj" />
+    <ProjectReference Include="..\Gico.ExceptionDefine\Gico.ExceptionDefine.csproj" />
+    <ProjectReference Include="..\Gico.FileStorage\Gico.FileStorage.csproj" />
+    <ProjectReference Include="..\Gico.MarketingCacheStorage\Gico.MarketingCacheStorage.csproj" />
+    <ProjectReference Include="..\Gico.MarketingDataObject\Gico.MarketingDataObject.csproj" />
+    <ProjectReference Include="..\Gico.ReadAddressModels\Gico.ReadAddressModels.csproj" />
+    <ProjectReference Include="..\Gico.ShardingDataObject\Gico.ShardingDataObject.csproj" />
+    <ProjectReference Include="..\Gico.SystemCacheStorage\Gico.SystemCacheStorage.csproj" />
+    <ProjectReference Include="..\Gico.SystemCommands\Gico.SystemCommands.csproj" />
+    <ProjectReference Include="..\Gico.SystemDataObject\Gico.SystemDataObject.csproj" />
+    <ProjectReference Include="..\Gico.SystemModels\Gico.SystemModels.csproj" />
+  </ItemGroup>
+
+</Project>
